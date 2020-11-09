@@ -1,2 +1,2 @@
-IF NOT EXISTS (CREATE DATABASE booktock_db);
+CREATE DATABASE booktock_db;
 GO
