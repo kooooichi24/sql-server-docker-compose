@@ -3,9 +3,9 @@ services:
   db:
     build: ./mssql
     environment: 
-      SA_PASSWORD: "yourStrong(!)Password"
-      ACCEPT_EULA: "Y"
-      MSSQL_AGENT_ENABLED: "true"
+      - SA_PASSWORD="yourStrong(!)Password"
+      - ACCEPT_EULA=Y
+      - MSSQL_AGENT_ENABLED=true
     ports:
       - "1401:1433"
     container_name: mssql
