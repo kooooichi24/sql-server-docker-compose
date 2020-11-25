@@ -1,2 +1,2 @@
-CREATE DATABASE booktock_db;
-GO
+-- CREATE DATABASE booktock_db;
+-- GO
